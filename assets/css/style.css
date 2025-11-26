@@ -8,24 +8,32 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font: 1.5rem;
+  font-size: 1.2rem;
+  font-family: inherit;
 }
 
 main {
   width: 50%;
   margin: auto;
 }
+
 main > * {
   width: 100%;
   margin: auto;
 }
 
-header {
+header,
+main h1,
+.subTitle,
+figure figcaption {
   text-align: center;
+}
+
+header {
   margin: 1rem 0;
 }
+
 .subTitle {
-  text-align: center;
   padding: 1px;
   background-color: #fdfbf1;
   border-top: 1px solid #ffd877;
@@ -41,7 +49,6 @@ header {
 main h1 {
   font-size: 3rem;
   margin: 2rem 0;
-  text-align: center;
 }
 
 .h1subTitle {
@@ -53,23 +60,23 @@ figure {
   width: 100%;
   margin: 2rem 0;
 }
-figure figcaption {
-  text-align: center;
-  margin-top: 0.5rem;
-  color: rgba(0, 0, 0, 0.37);
-}
+
 figure img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
+figure figcaption {
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.37);
+}
+
 .sectionTitle {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  padding: 1rem 0;
   border-bottom: 1px solid #cffcfc;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 aside {
@@ -77,21 +84,20 @@ aside {
   padding-left: 1rem;
   border-left: 1px solid #ffd877;
 }
+
+a {
+  color: #127878;
+  text-decoration: none;
+}
+
 aside a {
   text-transform: capitalize;
   font-size: 1.2rem;
-}
-a {
-  color: #127878;
 }
 
 .method,
 .ingredients {
   font-size: 1.2em;
   margin-top: 2rem;
-}
-
-.sectionTitle {
-  margin-bottom: 2rem;
-  font-size: 2rem;
+  line-height: 1.4;
 }
