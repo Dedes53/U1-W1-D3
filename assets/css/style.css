@@ -17,9 +17,9 @@ main {
   margin-inline: auto;
 }
 
-main > * {
+/* main > * {
   width: 100%;
-}
+} */
 
 header,
 main h1,
