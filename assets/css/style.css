@@ -69,6 +69,7 @@ figure img {
 video {
   border-radius: 10px;
   object-fit: cover;
+  box-shadow: 0 0px 15px 4px rgba(0, 0, 0, 0.3);
 }
 
 figure figcaption {
